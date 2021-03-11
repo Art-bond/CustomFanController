@@ -105,7 +105,7 @@ class DialView @JvmOverloads constructor(
             FanSpeed.LOW -> fanSpeedLowColor
             FanSpeed.MEDIUM -> fanSpeedMediumColor
             FanSpeed.HIGH -> fanSpeedMaxColor
-        } as Int
+        }
 
         canvas.drawCircle((width / 2).toFloat(), (height / 2).toFloat(), radius, paint)
 
